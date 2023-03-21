@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" id="homeLogo">E-commerce</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="index.html">Clothes</a>
+                        <!-- <a class="dropdown-item" href="#" disabled>Sports</a>
+                        <a class="dropdown-item" href="#" disabled>Gadgets</a> -->
+                    </div>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Features</a>
+                </li> -->
+                <li class="nav-item active">
+                    
+                
+                <button type="button" id="modalButtonL" class="btn btn-primary button" data-toggle="modal"
+                    data-target="#exampleModalCenter">
+                    Log In
+                </button>
+                
+                
+
+                <!-- Modal -->
+                <form id="myForm">
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Log In</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <div class="form-group">
+                                        <label for="emailid">Email address</label>
+                                        <input type="email" id="emailid" class="form-control"
+                                            aria-describedby="emailHelp" placeholder="Enter email">
+                                        <div class="email-msg"></div>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">Password</label>
+                                        <input type="password" id="password" class="form-control"
+                                            placeholder="Password">
+                                        <div class="password-msg"></div>
+                                    </div>
+                                    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <input id="submit-btn" type="submit" class="btn btn-primary allowed-submit"
+                                        disabled="desabled">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </li>&nbsp;
+            <li class="nav-item active">
+            <button type="button"  id="regButton" class="btn btn-primary button"><a style="text-decoration: none; color: #fff;" href="registration.html">Sign Up</a>
+        </button>
+        
+    </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div id="h1P" class="column-2">
+        <h1>Shop With Us Now<br>Upgrade To New Styles!</h1>
+        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque hic autem illo perferendis,
+            officiis atque distinctio a assumenda reiciendis quisquam in dignissimos laborum. Suscipit dicta quidem
+            ducimus beatae temporibus? Sunt?</p>
+    </div>
+    <div>
+        <img src="image1.png" class="rounded float-end" alt="image" width="700px" height="600px">
+    </div>
+    <!-- Button trigger modal -->
+
+
+
+
+    <!-- <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li> -->
+    <!-- <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/
+	jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="home.js"></script>
+</body>
+
+</html>

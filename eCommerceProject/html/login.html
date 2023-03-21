@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JQuery Form Validation</title>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+  <style type="text/css">
+ .allowed-submit{opacity: .5;cursor: not-allowed;}
+  .valid-input{
+    border:1px solid green !important;
+  }
+  .invalid-input{
+    border:1px solid red !important;
+  }
+  .invalid-msg{
+    color: red;
+  }
+.validation-form h3{
+  background:#eae9e9;
+  text-align:center;
+  padding:5px 0px;
+}
+.validation-form{
+  border:1px solid orange;
+  width:50%;
+  background:#dad9d9;
+  padding:10px 30px;
+}
+.validation-form .form-group{
+  margin:15px 0px;
+}
+.validation-form .form-group input{
+  padding:10px;
+  width:94%;
+  box-sizing:border-box;
+   border:none;
+   border-bottom:1px solid orange;
+}
+.validation-form .form-group input:focus{
+ outline:unset;
+}
+.validation-form .form-group input[type="submit"]{
+  width:100%;
+ 
+  background:orange;
+  font-size:20px;
+  color:white;
+}
+  </style>
+</head>
+<body>
+<div class = "validation-form">
+<form method = "post" id="myForm">
+ 
+   <h3>jQuery Validation Form</h3>
+  <div class="form-group">
+     <input type="text" placeholder="First Name"  id="firstName">
+     <div class="first-name-msg"></div>
+  </div>
+  <div class="form-group">
+     <input type="text" placeholder="Last Name" id="lastName">
+     <div class="last-name-msg"></div>
+  </div>
+    
+  <div class="form-group">
+     <input type="text" placeholder="Email" id="email">
+     <div class="email-msg"></div> 
+  </div>
+    
+  <div class="form-group">
+     <input type="password" placeholder="Password" id="password">
+     <div class="password-msg"></div> 
+  </div>
+    
+  <div class="form-group">
+     <input type="password" placeholder="Confirm Password" id="cpassword">
+     <div class="cpassword-msg"></div>
+  </div>
+    
+  <div class="form-group">
+     <input type="submit" value="Submit" id="submit-btn" class="allowed-submit" disabled="desabled">
+  </div>
+</form>
+    
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="login.js"></script>
+</body>
+</html>

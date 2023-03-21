@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="home.css">
+  <title>Registration Form</title>
+</head>
+
+<body id="regBody">
+  <div id="regHeader">
+  <header>
+  <h1 class="display-4" id="h1Register">Sign Up</h1>
+</header>
+</div>
+  <div class="container" id="registerForm">
+    <form action="home.html" id="regForm" class="form-control">
+      <div class="row">
+        <div class="col">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" class="form-control" placeholder="First name">
+          <div class="first-name-msg"></div>
+        </div>
+        <div class="col">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" class="form-control" placeholder="Last name">
+          <div class="last-name-msg"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="emailid">Email Address</label>
+          <input type="email" id="emailid" class="form-control" placeholder="Email Address">
+          <div class="email-msg"></div>
+        </div>
+        <div class="col">
+          <label for="password">Password</label>
+          <input type="password" id="password" class="form-control" placeholder="Password">
+          <div class="password-msg"></div>
+        </div>
+      </div>
+      <div>
+        <label for="photo">Upload Your Photo</label>
+        <div class="custom-file form-control">
+          <input type="file" class="custom-file-input" id="photo">
+        </div>
+      </div>
+      <div>
+        <fieldset class="form-control">
+          <legend>Billing Address</legend>
+          <div class="form-group">
+            <label for="billAddress1">Address</label>
+            <input type="text" class="form-control" id="billAddress1" placeholder="1234 Main St">
+            <div class="address1-msg"></div>
+          </div>
+          <div class="form-group">
+            <label for="billAddress2">Address 2</label>
+            <input type="text" class="form-control" id="billAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="form-group">
+            <label for="billAddress3">Address 3</label>
+            <input type="text" class="form-control" id="billAddress3" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="row g-4">
+            <div class="col-sm-3">
+              <label for="billCountry">Country</label>
+              <input type="text" id="billCountry" class="form-control" placeholder="Country" aria-label="Country">
+            </div>
+            <div class="col-sm-3">
+              <label for="billCity">City</label>
+              <input type="text" id="billCity" class="form-control" placeholder="City" aria-label="City">
+            </div>
+            <div class="col-sm-3">
+              <label for="billState">State</label>
+              <input type="text" id="billState" class="form-control" placeholder="State" aria-label="State">
+            </div>
+            <div class="col-sm-3">
+              <label for="billZip">Zipcode</label>
+              <input type="text" class="form-control" id="billZip" placeholder="Zip" aria-label="Zip">
+              <div class="zip-msg"></div>
+            </div>
+          </div>
+        </fieldset><br>
+      </div>
+      <div>
+        <fieldset class="form-control">
+          <legend>Shipping Address</legend>
+          <div class="form-group">
+            <label for="shipAddress1">Address</label>
+            <input type="text" class="form-control" id="shipAddress1" placeholder="1234 Main St">
+          </div>
+          <div class="form-group">
+            <label for="shipAddress2">Address 2</label>
+            <input type="text" class="form-control" id="shipAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="form-group">
+            <label for="shipAddress3">Address 3</label>
+            <input type="text" class="form-control" id="shipAddress3" placeholder="Apartment, studio, or floor">
+          </div><br>
+          <div class="row g-4">
+            <div class="col-sm-3">
+              <label for="shipCountry">Country</label>
+              <input type="text" id="shipCountry" class="form-control" placeholder="Country" aria-label="Country">
+            </div>
+            <div class="col-sm-3">
+              <label for="shipCity">City</label>
+              <input type="text" id="shipCity" class="form-control" placeholder="City" aria-label="City">
+            </div>
+            <div class="col-sm-3">
+              <label for="shipState">State</label>
+              <input type="text" class="form-control" id="shipState" placeholder="State" aria-label="State">
+            </div>
+            <div class="col-sm-3">
+              <label for="shipZip">Zipcode</label>
+              <input type="text" id="shipZip" class="form-control" placeholder="Zip" aria-label="Zip">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" onchange="checkAddress()" id="check">
+              <label class="form-check-label" for="gridCheck">
+                Check me out to fill your shipping address
+              </label>
+            </div>
+          </div>
+        </fieldset><br>
+      </div>
+      <input id="submit-btn" type="submit" class="btn btn-primary allowed-submit" disabled="desabled">
+    </form>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/
+	jquery/3.3.1/jquery.min.js">
+  </script>
+  <script src="validateRegistration.js"></script>
+</body>
+
+</html>

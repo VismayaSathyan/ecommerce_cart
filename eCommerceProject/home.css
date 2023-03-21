@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#homeLogo{
+    font-size: 50px;
+    margin-left: 50px;
+}
+#card-margin{
+    margin: 20px 50px ;
+    margin-top: 100px;
+}
+.para{
+    display: inline;
+}
+img{
+    float: right;
+}
+#h1P{
+    margin: 10px 50px;
+}
+#modalButtonL{
+    float: right;
+}
+#registerForm{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 800px;
+    
+}
+#h1Register{
+text-align: center;
+padding-top: 10px;
+color: aliceblue;
+font-weight: 500;
+}
+
+.valid-input{
+    border:1px solid green !important;
+  }
+  .invalid-input{
+    border:1px solid red !important;
+  }
+  .invalid-msg{
+    color: red;
+  }
+  #regHeader{
+    height: 100px;
+    /* background-color: #e1e6e2; */
+  }
+  #regBody{
+    background: url("bg_regPage.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  

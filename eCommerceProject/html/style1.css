@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    /* background-color: grey; */
+    /* background-image: url('image1.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+#homeLogo{
+    font-size: 50px;
+}
+#card-margin{
+    margin: 20px 50px ;
+    margin-top: 100px;
+}
+.para{
+    display: inline;
+}
+img{
+    float: right;
+}
+#h1P{
+    margin: 10px 50px;
+}
+#modalButtonL{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+/* .form-box{
+    width:380px;
+    height:480px;
+    position: relative;
+    margin-top: 85px;
+    margin-left: 70px;
+    background-color:#fff ;
+    padding: 5px;
+}
+.button-box{
+    width:250px;
+    position: relative;
+    margin: 35px auto;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-button{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+.button-color{
+    top:0;
+    left: 0;
+    position:absolute;
+    width: 110px;
+    height: 100%;
+    background:linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+.inputGroup{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 5s;
+    margin-left: 1px;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #999 ;
+    outline: none;
+    background: transparent;
+}
+.submit-button{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 10px;
+    
+    outline: none;
+    border: 0;
+    background:linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+} */
+/* .row1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.colugmn-2{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.column-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.column-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+} */
